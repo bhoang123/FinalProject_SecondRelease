@@ -1,0 +1,33 @@
+<%- include('partials/header'); -%>
+<%- include('partials/main_nav'); -%>
+  
+<body style="background-color:rgb(109, 148, 148);">
+   <h1><%= title %></h1>
+ 
+ <p>If you are interesting please welcome to contacting me through: <br><b>Phone Number: 437 223 3387. <br>Email: lhoang19@my.centennialcollege.ca.</b></p>
+ 
+ <h2>You can also drop your contact information here. </h2>
+ 
+   <a href="https://www.instagram.com/accounts/login/"><img  src="https://www.iphonefaq.org/files/styles/large/public/Instagram-Icon.png"  style="width:40px" width="1460"  ></a>
+ <a href="https://ca.linkedin.com/"><img  src="https://cdn-icons-png.flaticon.com/512/174/174857.png"  style="width:40px" width="1460"  ></a>
+ <a href="https://www.facebook.com/login/"><img  src="https://img.freepik.com/free-psd/3d-square-with-facebook-logo_125540-1565.jpg?w=2000"  style="width:70px" width="1460"  ></a>
+ <form>
+   <label for="fname">First name:</label><br>
+   <input type="text" id="fname" name="fname" value="First Name"><br>
+   <label for="lname">Last name:</label><br>
+   <input type="text" id="lname" name="lname" value="Last Name"><br><br>
+   <label for="fname">Phone Number:</label><br>
+   <input type="text" id="phno" name="phno" value="(000)-000-0000"><br>
+ 
+   <label for="fname">Email:</label><br>
+   <input type="text" id="email" name="email" value="example@email.com"><br>
+ 
+ 
+   <input type="submit" value="Submit">
+ </form> 
+ 
+   <%-include ('partials/bottom_nav.ejs');%>
+<%-include ('partials/footer.ejs');%>   
+
+
+
